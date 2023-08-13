@@ -5,7 +5,7 @@
 
 ## Description
 
-This is the project for the 9th module of my UCB Coding Bootcamp. For this project we were given bits of starter JavaScript code for a professional readme generator and told to complete it. We have node and the inquirer version 8.2.4 package to create code that will prompt the user in the terminal for the details they want to include in their readme, and then write a file that fits the standard formatting conventions of readme using that data. 
+This project is the 9th module, of the 9th week of the UCB Coding Bootcamp. For this project we were given some starter code that we had to complete. The goal of this project was to create a professional readme generator, using node, and the inquirer npm package, to prompt the user in the terminal, where the user inputs whatever details they want to include in their readme, and then have the file be created and formatted using standard conventions. 
 
 ## Table of Contents
 - [Description](#description)
