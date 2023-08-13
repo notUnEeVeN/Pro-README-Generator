@@ -1,4 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+//this function get called when generating the readme page below, it checks which license the user selected in the terminal, and finds the corresponding badge (or nothing if there user selected no license) to put on the of the page
 function renderLicenseBadge(license) {
   switch (license) {
       case 'MIT':
@@ -15,6 +16,7 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function that returns the license link
+//same think but for the license link
 function renderLicenseLink(license) {
   switch (license) {
       case 'MIT':
@@ -31,6 +33,7 @@ function renderLicenseLink(license) {
 }
 
 // TODO: Create a function that returns the license section of README
+//This removes the entire license section from the readme page if the user has opted out of it
 function renderLicenseSection(license) {
   if (license !== 'None') {
       return `## License
@@ -41,6 +44,7 @@ This project is licensed under the ${license} license. For more information, ref
 }
 
 // TODO: Create a function to generate markdown for README
+//this is the function that will generage the formatting / content for the read me page, this gets executed when we run the init function in the index.js page, and returns the data to the write file function
 function generateMarkdown(data) {
   return `
 # ${data.title}
@@ -83,5 +87,5 @@ ${data.tests}
 For any questions, reach out to [${data.github}](https://github.com/${data.github}) or [email me](mailto:${data.email}).
 `;
 }
-
+//export it so that the write file function in the index.js page can use the data
 module.exports = generateMarkdown;
