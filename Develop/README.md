@@ -1,40 +1,30 @@
 
-# Professional README Generator
-
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# SVG Logo Maker
 
 ## Description
 
-This project is the 9th module, of the 9th week of the UCB Coding Bootcamp. For this project we were given some starter code that we had to complete. The goal of this project was to create a professional readme generator, using node, and the inquirer npm package, to prompt the user in the terminal, where the user inputs whatever details they want to include in their readme, and then have the file be created and formatted using standard conventions. 
+This is the 10th Module project for the 10th week of the UCB Coding bootcamp, this week we focused on object oriented programming. For this project we were given no starter code other than an example of an svg file, and told to write a code that would use inquirer to prompt the user questions in their terminal, and allow them to create an svg file based on their responses. We utilize the object oriented programming used this week by creating classes/constructors, that inherit some properities from their parents and extend others.
 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
 
-The user needs to have node installed, as well as run the npm i inquirer@8.2.4 function in their terminal as those large modules are hidden in the github repository using git ignore. Those two steps are necessary to properly execute the application in your terminal.
+Simply initialize node and install the inquirer 8.2.4 package, then execute the code in your terminal, you will then be prompted for the design shape, color and text of your svg file, and once every question is answered, will generate your file  titled logo.svg.
 
 ## Usage 
 
-Once all the files are properly installed simply run the JavaScript file using node (e.g node index) and then fill the prompts with your desired information.
+This can be used to create SVG logos quickly, taking very little time, as well as will be a good way to study the basics of node and object oriented programming that we have been learning lately in class.
 
-## License
-
-This project is licensed under the MIT license. For more information, refer to the linked license document: [License: MIT](https://opensource.org/licenses/MIT)
-
-## Contributing 
-
-undefined
 
 ## Tests
 
-undefined
+To run a test, run npm test in your terminal, there is a currently a test for each of the three shape extensions.
 
 ## Questions
 
